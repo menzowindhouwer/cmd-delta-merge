@@ -2,6 +2,9 @@
 <delta xmlns:cmd="http://www.clarin.eu/cmd/">
     <cmd:Components>
         <upsert>
+            <!-- TODO: make it also work with simple paths, e.g.
+            <upsert xp="//Platform/bitArchitecture">32-bit</upsert>
+            -->
             <cmd:ClarinSoftwareDescription>
                 <cmd:SoftwareImplementation>
                     <cmd:InstallationRequirements>
@@ -19,6 +22,7 @@
                 </cmd:Service>
             </cmd:ClarinSoftwareDescription>
         </upsert>
+        <!-- TODO: made deletes work -->
         <delete>
             <cmd:ClarinSoftwareDescription>
                 <cmd:Access>
