@@ -11,3 +11,10 @@ Or on the commandline using [Saxon 10.1](https://www.saxonica.com/):
 ``sh
 java  -jar SaxonHE10-1J/saxon-he-10.1.jar -s:Alpino\ RUN.cmdi.xml -xsl:merge.xsl +delta=delta.xml
 ``
+
+## TODO
+
+[] support attributes
+[] support deletes 
+[] also allow less verbose simple xpaths instead of XML fragments in the delta xml
+[] support CMDI 1.2
