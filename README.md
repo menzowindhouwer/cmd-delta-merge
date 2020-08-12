@@ -14,7 +14,7 @@ java  -jar SaxonHE10-1J/saxon-he-10.1.jar -s:Alpino\ RUN.cmdi.xml -xsl:merge.xsl
 
 ## TODO
 
-[] support attributes
-[] support deletes 
-[] also allow less verbose simple xpaths instead of XML fragments in the delta xml
-[] support CMDI 1.2
+- [ ] support attributes
+- [ ] support deletes 
+- [ ] also allow less verbose simple xpaths instead of XML fragments in the delta xml
+- [ ] support CMDI 1.2
