@@ -8,9 +8,9 @@ To see this in action open the [oXygen](https://www.oxygenxml.com/) project, ope
 
 Or on the commandline using [Saxon 10.1](https://www.saxonica.com/):
 
-``sh
-java  -jar SaxonHE10-1J/saxon-he-10.1.jar -s:Alpino\ RUN.cmdi.xml -xsl:merge.xsl +delta=delta.xml
-``
+```sh
+$ java  -jar SaxonHE10-1J/saxon-he-10.1.jar -s:Alpino\ RUN.cmdi.xml -xsl:merge.xsl +delta=delta.xml
+```
 
 ## TODO
 
